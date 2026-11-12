@@ -1,0 +1,19 @@
+{
+ "tris": {
+  "Baked_Dais": 6406,
+  "Baked_Room": 31356,
+  "Baked_Furn": 53444,
+  "Baked_Clutter": 96456,
+  "Emit_CandleFlames": 2592,
+  "Emit_DaisRunes": 9654,
+  "Emit_KilnFire": 732,
+  "Emit_LanternGlass": 96,
+  "Emit_MagicJar": 288,
+  "Emit_MagicJar.001": 288,
+  "Emit_MagicJar.002": 288,
+  "Emit_Potion": 288,
+  "Emit_Window": 25
+ },
+ "res": 4096,
+ "samples": 384
+}

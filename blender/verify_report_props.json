@@ -1,0 +1,689 @@
+{
+ "props": {
+  "errors": [],
+  "props": {
+   "Block_Books": {
+    "tris": 5940,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.911,
+     0.912,
+     0.759
+    ],
+    "min_y": -0.006,
+    "max_y": 0.906,
+    "children": [],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     },
+     {
+      "name": "Brass",
+      "images": []
+     }
+    ]
+   },
+   "Block_Crate": {
+    "tris": 11588,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.929,
+     0.9,
+     0.929
+    ],
+    "min_y": 0.0,
+    "max_y": 0.9,
+    "children": [],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     },
+     {
+      "name": "Iron",
+      "images": []
+     }
+    ]
+   },
+   "Block_Stone": {
+    "tris": 7998,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.881,
+     0.872,
+     0.883
+    ],
+    "min_y": -0.0,
+    "max_y": 0.872,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Broom": {
+    "tris": 664,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.219,
+     1.251,
+     0.12
+    ],
+    "min_y": -0.001,
+    "max_y": 1.25,
+    "children": [],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Candle": {
+    "tris": 3180,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.335,
+     0.547,
+     0.24
+    ],
+    "min_y": 0.0,
+    "max_y": 0.547,
+    "children": [
+     "Flame"
+    ],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     },
+     {
+      "name": "Brass",
+      "images": []
+     },
+     {
+      "name": "wickmat",
+      "images": []
+     }
+    ]
+   },
+   "Cat": {
+    "tris": 10000,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.435,
+     0.156,
+     0.465
+    ],
+    "min_y": -0.0,
+    "max_y": 0.156,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Cat_Awake": {
+    "tris": 10000,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.293,
+     0.4,
+     0.335
+    ],
+    "min_y": -0.0,
+    "max_y": 0.4,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "DustPile": {
+    "tris": 1586,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.534,
+     0.085,
+     0.563
+    ],
+    "min_y": -0.003,
+    "max_y": 0.082,
+    "children": [],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Jug": {
+    "tris": 3732,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.365,
+     0.45,
+     0.31
+    ],
+    "min_y": 0.0,
+    "max_y": 0.45,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "JugShard_1": {
+    "tris": 794,
+    "translation_gltf": [
+     0.085,
+     0.112,
+     0.033
+    ],
+    "size_gltf": [
+     0.214,
+     0.246,
+     0.204
+    ],
+    "min_y": 0.0,
+    "max_y": 0.246,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "JugShard_2": {
+    "tris": 546,
+    "translation_gltf": [
+     -0.076,
+     0.107,
+     0.046
+    ],
+    "size_gltf": [
+     0.175,
+     0.294,
+     0.237
+    ],
+    "min_y": 0.0,
+    "max_y": 0.294,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "JugShard_3": {
+    "tris": 654,
+    "translation_gltf": [
+     0.01,
+     0.086,
+     -0.072
+    ],
+    "size_gltf": [
+     0.277,
+     0.278,
+     0.161
+    ],
+    "min_y": 0.0,
+    "max_y": 0.278,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "JugShard_4": {
+    "tris": 2588,
+    "translation_gltf": [
+     0.035,
+     0.377,
+     0.007
+    ],
+    "size_gltf": [
+     0.304,
+     0.25,
+     0.244
+    ],
+    "min_y": 0.2,
+    "max_y": 0.45,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "JugShard_5": {
+    "tris": 762,
+    "translation_gltf": [
+     -0.05,
+     0.341,
+     -0.05
+    ],
+    "size_gltf": [
+     0.216,
+     0.308,
+     0.203
+    ],
+    "min_y": 0.142,
+    "max_y": 0.45,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Letter_Alef": {
+    "tris": 1796,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.475,
+     0.45,
+     0.149
+    ],
+    "min_y": -0.225,
+    "max_y": 0.225,
+    "children": [],
+    "materials": [
+     {
+      "name": "Gold",
+      "images": []
+     }
+    ]
+   },
+   "Letter_Mem": {
+    "tris": 2404,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.445,
+     0.45,
+     0.148
+    ],
+    "min_y": -0.225,
+    "max_y": 0.225,
+    "children": [],
+    "materials": [
+     {
+      "name": "Gold",
+      "images": []
+     }
+    ]
+   },
+   "Letter_Tav": {
+    "tris": 1996,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.457,
+     0.45,
+     0.149
+    ],
+    "min_y": -0.225,
+    "max_y": 0.225,
+    "children": [],
+    "materials": [
+     {
+      "name": "Gold",
+      "images": []
+     }
+    ]
+   },
+   "Pedestal": {
+    "tris": 2160,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.482,
+     0.352,
+     0.482
+    ],
+    "min_y": -0.001,
+    "max_y": 0.351,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Plant_Bloom": {
+    "tris": 10876,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.271,
+     0.349,
+     0.261
+    ],
+    "min_y": 0.0,
+    "max_y": 0.349,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Plant_Wilted": {
+    "tris": 5284,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.347,
+     0.342,
+     0.317
+    ],
+    "min_y": 0.0,
+    "max_y": 0.342,
+    "children": [],
+    "materials": [
+     {
+      "name": "ClayProps",
+      "images": [
+       "props_clayprops_col",
+       "props_clayprops_orm",
+       "props_clayprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Scroll": {
+    "tris": 856,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.44,
+     0.124,
+     0.163
+    ],
+    "min_y": -0.01,
+    "max_y": 0.114,
+    "children": [],
+    "materials": [
+     {
+      "name": "WoodProps",
+      "images": [
+       "props_woodprops_col",
+       "props_woodprops_orm",
+       "props_woodprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Star": {
+    "tris": 476,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.329,
+     0.313,
+     0.091
+    ],
+    "min_y": 0.0,
+    "max_y": 0.313,
+    "children": [],
+    "materials": [
+     {
+      "name": "Gold",
+      "images": []
+     }
+    ]
+   },
+   "Tile_A": {
+    "tris": 4880,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.973,
+     0.204,
+     0.974
+    ],
+    "min_y": -0.204,
+    "max_y": 0.0,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Tile_B": {
+    "tris": 4898,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.974,
+     0.206,
+     0.975
+    ],
+    "min_y": -0.206,
+    "max_y": 0.0,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     }
+    ]
+   },
+   "Tile_C": {
+    "tris": 4832,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.973,
+     0.204,
+     0.974
+    ],
+    "min_y": -0.204,
+    "max_y": 0.0,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     }
+    ]
+   },
+   "TileGoal": {
+    "tris": 9996,
+    "translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "size_gltf": [
+     0.974,
+     0.209,
+     0.973
+    ],
+    "min_y": -0.206,
+    "max_y": 0.003,
+    "children": [],
+    "materials": [
+     {
+      "name": "StoneProps",
+      "images": [
+       "props_stoneprops_col",
+       "props_stoneprops_orm",
+       "props_stoneprops_nrm"
+      ]
+     },
+     {
+      "name": "Glow",
+      "images": []
+     }
+    ]
+   }
+  }
+ }
+}

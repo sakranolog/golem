@@ -1,0 +1,26 @@
+23:35:07 | INFO: Data are loaded, start creating Blender stuff
+23:35:07 | INFO: Blender create Mesh node Hips_mesh
+23:35:07 | INFO: Blender create Mesh node LegL_mesh
+23:35:07 | INFO: Blender create Mesh node LegR_mesh
+23:35:07 | INFO: Blender create Mesh node Torso_mesh
+23:35:07 | INFO: Blender create Mesh node ArmL_Upper_mesh
+23:35:07 | INFO: Blender create Mesh node ArmL_Lower_mesh
+23:35:07 | INFO: Blender create Mesh node HandL_mesh
+23:35:07 | INFO: Blender create Mesh node ArmR_Upper_mesh
+23:35:07 | INFO: Blender create Mesh node ArmR_Lower_mesh
+23:35:07 | INFO: Blender create Mesh node HandR_mesh
+23:35:07 | INFO: Blender create Mesh node Head_mesh
+23:35:07 | INFO: Blender create Mesh node Brow_L_mesh
+23:35:07 | INFO: Blender create Mesh node Brow_R_mesh
+23:35:07 | INFO: Blender create Mesh node Eye_L_mesh
+23:35:07 | INFO: Blender create Mesh node Eye_R_mesh
+23:35:07 | INFO: Blender create Mesh node Jaw_mesh
+23:35:07 | INFO: glTF import finished in 0.10s
+00:02.349  render           | Saved: '/Users/sakranolog/Documents/Code/golem/blender/previews/verify_golem.png'
+00:04.025  render           | Saved: '/Users/sakranolog/Documents/Code/golem/blender/previews/verify_golem_posed.png'
+RENDERED /Users/sakranolog/Documents/Code/golem/blender/previews/verify_golem.png
+RENDERED /Users/sakranolog/Documents/Code/golem/blender/previews/verify_golem_posed.png
+VERIFY golem errors: [] tris: 112246
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:31:21)
+
+Blender quit

@@ -1,0 +1,1332 @@
+{
+ "generator": "blender/build_all.sh (Blender 5.3, Cycles/Metal), fully procedural",
+ "conventions": {
+  "units": "metres",
+  "up": "+Y",
+  "forward": "models face +Z",
+  "game_camera": {
+   "position": [
+    0,
+    7.5,
+    9.5
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "fov_deg": 35,
+   "orbit_deg": 20
+  },
+  "board": "tiles are 1.0 x 1.0 x 0.2, top at y=0, sit on the dais whose top is at y=-0.2"
+ },
+ "files": {
+  "golem": {
+   "path": "models/golem.glb",
+   "bytes": 5486992,
+   "triangles": 112246,
+   "bbox_size": [
+    0.9,
+    1.383,
+    0.515
+   ],
+   "height": 1.383,
+   "skinned": false,
+   "hierarchy": {
+    "Golem": null,
+    "Hips": "Golem",
+    "Torso": "Hips",
+    "Head": "Torso",
+    "Eye_L": "Head",
+    "Eye_R": "Head",
+    "Brow_L": "Head",
+    "Brow_R": "Head",
+    "Jaw": "Head",
+    "ArmL_Upper": "Torso",
+    "ArmL_Lower": "ArmL_Upper",
+    "HandL": "ArmL_Lower",
+    "ArmR_Upper": "Torso",
+    "ArmR_Lower": "ArmR_Upper",
+    "HandR": "ArmR_Lower",
+    "LegL": "Hips",
+    "LegR": "Hips"
+   },
+   "pivots_world": {
+    "Golem": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "Hips": [
+     0.0,
+     0.416,
+     -0.0
+    ],
+    "Torso": [
+     0.0,
+     0.4992,
+     -0.0
+    ],
+    "Head": [
+     0.0,
+     1.1024,
+     0.0208
+    ],
+    "Eye_L": [
+     0.0603,
+     1.2033,
+     0.1716
+    ],
+    "Eye_R": [
+     -0.0603,
+     1.2033,
+     0.1716
+    ],
+    "Brow_L": [
+     0.0624,
+     1.2646,
+     0.1789
+    ],
+    "Brow_R": [
+     -0.0624,
+     1.2646,
+     0.1789
+    ],
+    "Jaw": [
+     0.0,
+     1.1284,
+     0.0624
+    ],
+    "ArmL_Upper": [
+     0.2527,
+     1.04,
+     -0.0
+    ],
+    "ArmL_Lower": [
+     0.3047,
+     0.7644,
+     0.0208
+    ],
+    "HandL": [
+     0.3307,
+     0.442,
+     0.052
+    ],
+    "ArmR_Upper": [
+     -0.2527,
+     1.04,
+     -0.0
+    ],
+    "ArmR_Lower": [
+     -0.3047,
+     0.7644,
+     0.0208
+    ],
+    "HandR": [
+     -0.3307,
+     0.442,
+     0.052
+    ],
+    "LegL": [
+     0.1352,
+     0.3744,
+     -0.0
+    ],
+    "LegR": [
+     -0.1352,
+     0.3744,
+     -0.0
+    ]
+   },
+   "local_translations": {
+    "Golem": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "Hips": [
+     0.0,
+     0.416,
+     -0.0
+    ],
+    "Torso": [
+     0.0,
+     0.0832,
+     -0.0
+    ],
+    "Head": [
+     0.0,
+     0.6032,
+     0.0208
+    ],
+    "Eye_L": [
+     0.0603,
+     0.1009,
+     0.1508
+    ],
+    "Eye_R": [
+     -0.0603,
+     0.1009,
+     0.1508
+    ],
+    "Brow_L": [
+     0.0624,
+     0.1622,
+     0.1581
+    ],
+    "Brow_R": [
+     -0.0624,
+     0.1622,
+     0.1581
+    ],
+    "Jaw": [
+     0.0,
+     0.026,
+     0.0416
+    ],
+    "ArmL_Upper": [
+     0.2527,
+     0.5408,
+     -0.0
+    ],
+    "ArmL_Lower": [
+     0.052,
+     -0.2756,
+     0.0208
+    ],
+    "HandL": [
+     0.026,
+     -0.3224,
+     0.0312
+    ],
+    "ArmR_Upper": [
+     -0.2527,
+     0.5408,
+     0.0
+    ],
+    "ArmR_Lower": [
+     -0.052,
+     -0.2756,
+     0.0208
+    ],
+    "HandR": [
+     -0.026,
+     -0.3224,
+     0.0312
+    ],
+    "LegL": [
+     0.1352,
+     -0.0416,
+     -0.0
+    ],
+    "LegR": [
+     -0.1352,
+     -0.0416,
+     -0.0
+    ]
+   },
+   "rest_pose": "every node has identity rotation and unit scale; local axes == world axes. Rotate about local X to swing arms/legs forward/back, about Z to swing them sideways.",
+   "materials": {
+    "Clay": "baked 2K base colour / ORM / normal textures",
+    "Rune": "emissive turquoise (chest + back sigils, forearm bands, forehead word), animate emissiveIntensity",
+    "Eye": "emissive turquoise eyes (Eye_L, Eye_R are separate nodes), animate emissiveIntensity",
+    "MouthDark": "dark mouth interior (behind the Jaw)"
+   },
+   "forehead_word": "אמת (emet) engraved in Rune material on the Head; it reads correctly right-to-left"
+  },
+  "props": {
+   "path": "models/props.glb",
+   "bytes": 7257280,
+   "nodes": {
+    "Block_Books": {
+     "size": [
+      0.911,
+      0.912,
+      0.759
+     ],
+     "triangles": 5940,
+     "min_y": -0.006,
+     "max_y": 0.906,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "WoodProps",
+      "Brass"
+     ]
+    },
+    "Block_Crate": {
+     "size": [
+      0.929,
+      0.9,
+      0.929
+     ],
+     "triangles": 11588,
+     "min_y": 0.0,
+     "max_y": 0.9,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "WoodProps",
+      "Iron"
+     ]
+    },
+    "Block_Stone": {
+     "size": [
+      0.881,
+      0.872,
+      0.883
+     ],
+     "triangles": 7998,
+     "min_y": -0.0,
+     "max_y": 0.872,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps"
+     ]
+    },
+    "Broom": {
+     "size": [
+      0.219,
+      1.251,
+      0.12
+     ],
+     "triangles": 664,
+     "min_y": -0.001,
+     "max_y": 1.25,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "WoodProps"
+     ]
+    },
+    "Candle": {
+     "size": [
+      0.335,
+      0.547,
+      0.24
+     ],
+     "triangles": 3180,
+     "min_y": 0.0,
+     "max_y": 0.547,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [
+      "Flame"
+     ],
+     "materials": [
+      "WoodProps",
+      "Brass",
+      "wickmat"
+     ]
+    },
+    "Cat": {
+     "size": [
+      0.435,
+      0.156,
+      0.465
+     ],
+     "triangles": 10000,
+     "min_y": -0.0,
+     "max_y": 0.156,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "Cat_Awake": {
+     "size": [
+      0.293,
+      0.4,
+      0.335
+     ],
+     "triangles": 10000,
+     "min_y": -0.0,
+     "max_y": 0.4,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "DustPile": {
+     "size": [
+      0.534,
+      0.085,
+      0.563
+     ],
+     "triangles": 1586,
+     "min_y": -0.003,
+     "max_y": 0.082,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "WoodProps"
+     ]
+    },
+    "Jug": {
+     "size": [
+      0.365,
+      0.45,
+      0.31
+     ],
+     "triangles": 3732,
+     "min_y": 0.0,
+     "max_y": 0.45,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "JugShard_1": {
+     "size": [
+      0.214,
+      0.246,
+      0.204
+     ],
+     "triangles": 794,
+     "min_y": 0.0,
+     "max_y": 0.246,
+     "translation": [
+      0.085,
+      0.112,
+      0.033
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "JugShard_2": {
+     "size": [
+      0.175,
+      0.294,
+      0.237
+     ],
+     "triangles": 546,
+     "min_y": 0.0,
+     "max_y": 0.294,
+     "translation": [
+      -0.076,
+      0.107,
+      0.046
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "JugShard_3": {
+     "size": [
+      0.277,
+      0.278,
+      0.161
+     ],
+     "triangles": 654,
+     "min_y": 0.0,
+     "max_y": 0.278,
+     "translation": [
+      0.01,
+      0.086,
+      -0.072
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "JugShard_4": {
+     "size": [
+      0.304,
+      0.25,
+      0.244
+     ],
+     "triangles": 2588,
+     "min_y": 0.2,
+     "max_y": 0.45,
+     "translation": [
+      0.035,
+      0.377,
+      0.007
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "JugShard_5": {
+     "size": [
+      0.216,
+      0.308,
+      0.203
+     ],
+     "triangles": 762,
+     "min_y": 0.142,
+     "max_y": 0.45,
+     "translation": [
+      -0.05,
+      0.341,
+      -0.05
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "Letter_Alef": {
+     "size": [
+      0.475,
+      0.45,
+      0.149
+     ],
+     "triangles": 1796,
+     "min_y": -0.225,
+     "max_y": 0.225,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "Gold"
+     ]
+    },
+    "Letter_Mem": {
+     "size": [
+      0.445,
+      0.45,
+      0.148
+     ],
+     "triangles": 2404,
+     "min_y": -0.225,
+     "max_y": 0.225,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "Gold"
+     ]
+    },
+    "Letter_Tav": {
+     "size": [
+      0.457,
+      0.45,
+      0.149
+     ],
+     "triangles": 1996,
+     "min_y": -0.225,
+     "max_y": 0.225,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "Gold"
+     ]
+    },
+    "Pedestal": {
+     "size": [
+      0.482,
+      0.352,
+      0.482
+     ],
+     "triangles": 2160,
+     "min_y": -0.001,
+     "max_y": 0.351,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps"
+     ]
+    },
+    "Plant_Bloom": {
+     "size": [
+      0.271,
+      0.349,
+      0.261
+     ],
+     "triangles": 10876,
+     "min_y": 0.0,
+     "max_y": 0.349,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "Plant_Wilted": {
+     "size": [
+      0.347,
+      0.342,
+      0.317
+     ],
+     "triangles": 5284,
+     "min_y": 0.0,
+     "max_y": 0.342,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "ClayProps"
+     ]
+    },
+    "Scroll": {
+     "size": [
+      0.44,
+      0.124,
+      0.163
+     ],
+     "triangles": 856,
+     "min_y": -0.01,
+     "max_y": 0.114,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "WoodProps"
+     ]
+    },
+    "Star": {
+     "size": [
+      0.329,
+      0.313,
+      0.091
+     ],
+     "triangles": 476,
+     "min_y": 0.0,
+     "max_y": 0.313,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "Gold"
+     ]
+    },
+    "Tile_A": {
+     "size": [
+      0.973,
+      0.204,
+      0.974
+     ],
+     "triangles": 4880,
+     "min_y": -0.204,
+     "max_y": 0.0,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps"
+     ]
+    },
+    "Tile_B": {
+     "size": [
+      0.974,
+      0.206,
+      0.975
+     ],
+     "triangles": 4898,
+     "min_y": -0.206,
+     "max_y": 0.0,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps"
+     ]
+    },
+    "Tile_C": {
+     "size": [
+      0.973,
+      0.204,
+      0.974
+     ],
+     "triangles": 4832,
+     "min_y": -0.204,
+     "max_y": 0.0,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps"
+     ]
+    },
+    "TileGoal": {
+     "size": [
+      0.974,
+      0.209,
+      0.973
+     ],
+     "triangles": 9996,
+     "min_y": -0.206,
+     "max_y": 0.003,
+     "translation": [
+      0.0,
+      0.0,
+      -0.0
+     ],
+     "children": [],
+     "materials": [
+      "StoneProps",
+      "Glow"
+     ]
+    }
+   },
+   "notes": {
+    "origins": "origin at centre of the base on the ground (y=0) for every prop, except: Tile_*/TileGoal top face at y=0 (body to y=-0.2); Letter_* origin at the letter centre; JugShard_* origin at the shard centre.",
+    "JugShard_n": "exported at their rest offset relative to an un-broken Jug placed at the origin, so placing all five at the jug position reassembles the jug; the translations are listed per shard.",
+    "Candle": "child node Flame (material Flame, emissive) has its origin at the wick tip; scale/flicker it.",
+    "TileGoal": "engraved rings use emissive material Glow.",
+    "Letter_*": "material Gold (metallic). Letters face +Z.",
+    "Star": "stands upright facing +Z, origin at its lowest point."
+   }
+  },
+  "workshop": {
+   "path": "models/workshop.glb",
+   "bytes": 14771716,
+   "triangles": 201913,
+   "meshes": {
+    "Baked_Clutter": 96456,
+    "Baked_Dais": 6406,
+    "Baked_Furn": 53444,
+    "Baked_Room": 31356,
+    "Emit_CandleFlames": 2592,
+    "Emit_DaisRunes": 9654,
+    "Emit_KilnFire": 732,
+    "Emit_LanternGlass": 96,
+    "Emit_MagicJar": 288,
+    "Emit_MagicJar.001": 288,
+    "Emit_MagicJar.002": 288,
+    "Emit_Potion": 288,
+    "Emit_Window": 25
+   },
+   "lightmap_resolution": 4096,
+   "bake_samples": 384,
+   "notes": {
+    "Baked_*": "full Cycles lighting (direct + indirect + emission, denoised) baked into the base colour texture. Exported with KHR_materials_unlit. The textures are display-referred (AgX tone mapping already applied, sRGB), so render them with toneMapped = false (or NoToneMapping) and no extra lighting.",
+    "Emit_*": "emissive meshes for bloom: Emit_Window (night sky + moon texture), Emit_KilnFire, Emit_CandleFlames, Emit_LanternGlass, Emit_DaisRunes (alef-bet ring engraved in the dais), Emit_Potion / Emit_MagicJar* (turquoise).",
+    "Light_*": "empties at the real-time light positions (extras carry light_type, color, blender_power, direction_gltf).",
+    "clear_area": "nothing but the dais (Baked_Dais, Emit_DaisRunes) inside radius 5.5 m around the origin; dais top y=-0.2; curb stones from r=5.0 to 5.56 rise to y=+0.02; the room floor is y=0.",
+    "front": "the +Z side is open: side walls run to z=+14, front wall at z=+14 (behind the camera), ceiling at y=8.5 with beams above the camera height only."
+   }
+  },
+  "environment": {
+   "path": "env/workshop_env.hdr",
+   "bytes": 6249949,
+   "format": "Radiance HDR, equirectangular 2048x1024, linear, rendered from (0, 1.2, 0)",
+   "usage": "THREE.RGBELoader + EquirectangularReflectionMapping (image centre = +X, matches three.js)"
+  }
+ },
+ "lights": [
+  {
+   "name": "Light_Moon",
+   "type": "directional",
+   "position": [
+    -4.62,
+    4.0,
+    -7.3
+   ],
+   "color": [
+    0.42,
+    0.6,
+    1.0
+   ],
+   "blender_power": 9.0,
+   "blender_unit": "W/m^2 (sun strength)",
+   "intensity_physical": 6147.0,
+   "intensity_physical_unit": "lux",
+   "intensity_threejs_suggested": 3.15,
+   "radius": 0.1,
+   "direction": [
+    0.3374,
+    -0.5505,
+    0.7636
+   ]
+  },
+  {
+   "name": "Light_Fire",
+   "type": "point",
+   "position": [
+    4.9806,
+    0.75,
+    -5.5772
+   ],
+   "color": [
+    1.0,
+    0.42,
+    0.12
+   ],
+   "blender_power": 900,
+   "blender_unit": "W",
+   "intensity_physical": 48916.3,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 71.62,
+   "radius": 0.35,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_1",
+   "type": "point",
+   "position": [
+    -1.6,
+    1.23,
+    -6.25
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.25
+   ],
+   "blender_power": 18,
+   "blender_unit": "W",
+   "intensity_physical": 978.3,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.432,
+   "radius": 0.04,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_2",
+   "type": "point",
+   "position": [
+    -1.45,
+    1.15,
+    -6.18
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.25
+   ],
+   "blender_power": 18,
+   "blender_unit": "W",
+   "intensity_physical": 978.3,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.432,
+   "radius": 0.04,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_3",
+   "type": "point",
+   "position": [
+    1.6,
+    1.19,
+    -6.2
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.25
+   ],
+   "blender_power": 18,
+   "blender_unit": "W",
+   "intensity_physical": 978.3,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.432,
+   "radius": 0.04,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Magic_1",
+   "type": "point",
+   "position": [
+    0.15,
+    1.2,
+    -6.65
+   ],
+   "color": [
+    0.1,
+    1.0,
+    0.8
+   ],
+   "blender_power": 25,
+   "blender_unit": "W",
+   "intensity_physical": 1358.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.989,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Magic_2",
+   "type": "point",
+   "position": [
+    -1.25,
+    1.625,
+    -7.03
+   ],
+   "color": [
+    0.1,
+    1.0,
+    0.8
+   ],
+   "blender_power": 14,
+   "blender_unit": "W",
+   "intensity_physical": 760.9,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.114,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Magic_3",
+   "type": "point",
+   "position": [
+    -7.53,
+    2.275,
+    -2.6
+   ],
+   "color": [
+    0.1,
+    1.0,
+    0.8
+   ],
+   "blender_power": 14,
+   "blender_unit": "W",
+   "intensity_physical": 760.9,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.114,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Magic_4",
+   "type": "point",
+   "position": [
+    7.53,
+    1.425,
+    -1.6
+   ],
+   "color": [
+    0.1,
+    1.0,
+    0.8
+   ],
+   "blender_power": 14,
+   "blender_unit": "W",
+   "intensity_physical": 760.9,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 1.114,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_4",
+   "type": "point",
+   "position": [
+    -5.25,
+    0.62,
+    -3.55
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_5",
+   "type": "point",
+   "position": [
+    5.05,
+    0.62,
+    -3.45
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_6",
+   "type": "point",
+   "position": [
+    -3.0,
+    0.62,
+    -5.65
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_7",
+   "type": "point",
+   "position": [
+    3.05,
+    0.62,
+    -5.65
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_8",
+   "type": "point",
+   "position": [
+    -6.5,
+    0.62,
+    1.2
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Candle_9",
+   "type": "point",
+   "position": [
+    6.5,
+    0.62,
+    1.3
+   ],
+   "color": [
+    1.0,
+    0.58,
+    0.22
+   ],
+   "blender_power": 45,
+   "blender_unit": "W",
+   "intensity_physical": 2445.8,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 3.581,
+   "radius": 0.08,
+   "suggested_distance": 3.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_1",
+   "type": "point",
+   "position": [
+    -7.35,
+    2.85,
+    -0.2
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_2",
+   "type": "point",
+   "position": [
+    7.35,
+    2.85,
+    -0.2
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_3",
+   "type": "point",
+   "position": [
+    -7.35,
+    2.85,
+    -5.2
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_4",
+   "type": "point",
+   "position": [
+    7.35,
+    2.85,
+    -5.2
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_5",
+   "type": "point",
+   "position": [
+    -2.35,
+    2.55,
+    -6.65
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_6",
+   "type": "point",
+   "position": [
+    2.35,
+    2.55,
+    -6.65
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 60,
+   "blender_unit": "W",
+   "intensity_physical": 3261.1,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 4.775,
+   "radius": 0.1,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_7",
+   "type": "point",
+   "position": [
+    -5.9,
+    4.45,
+    -3.6
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 90,
+   "blender_unit": "W",
+   "intensity_physical": 4891.6,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 7.162,
+   "radius": 0.12,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  },
+  {
+   "name": "Light_Lantern_8",
+   "type": "point",
+   "position": [
+    6.1,
+    4.45,
+    -2.4
+   ],
+   "color": [
+    1.0,
+    0.6,
+    0.26
+   ],
+   "blender_power": 90,
+   "blender_unit": "W",
+   "intensity_physical": 4891.6,
+   "intensity_physical_unit": "candela",
+   "intensity_threejs_suggested": 7.162,
+   "radius": 0.12,
+   "suggested_distance": 8.0,
+   "suggested_decay": 2
+  }
+ ],
+ "palette": {
+  "moon": [
+   0.42,
+   0.6,
+   1.0
+  ],
+  "fire": [
+   1.0,
+   0.42,
+   0.12
+  ],
+  "lantern": [
+   1.0,
+   0.6,
+   0.26
+  ],
+  "candle": [
+   1.0,
+   0.58,
+   0.22
+  ],
+  "rune_turquoise": [
+   0.03,
+   1.0,
+   0.75
+  ],
+  "ambient_indigo": [
+   0.03,
+   0.05,
+   0.12
+  ]
+ },
+ "total_bytes": 33765937
+}

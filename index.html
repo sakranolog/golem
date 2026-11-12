@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#05070d" />
+  <title>הגולם · עושה בדיוק מה שאמרת</title>
+</head>
+<body>
+  <canvas id="c"></canvas>
+
+  <div id="loading">
+    <div class="sigil"><span>א</span><span>מ</span><span>ת</span></div>
+    <p>מעירים את הגולם…</p>
+    <div id="loadbar"><i></i></div>
+  </div>
+
+  <section id="title" hidden>
+    <h1 id="logo">הגולם</h1>
+    <p class="tag">עושה בדיוק, אבל בדיוק, מה שאמרת.</p>
+    <button id="start" type="button"><span>להעיר אותו</span></button>
+    <p class="fine">משימה אחת ביום · חמש דקות · חמישה ימים</p>
+  </section>
+
+  <section id="hud" hidden>
+    <header>
+      <div id="days"></div>
+      <div id="dayname"></div>
+      <div class="tools">
+        <button id="solve" type="button" hidden title="מצב בדיקה: מלא פתרון">פתרון</button>
+        <button id="speed" type="button" title="מהירות"><b>×1</b></button>
+        <button id="mute" type="button" title="קול">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="w" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="x" d="M17 9l5 6M22 9l-5 6"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="bubble" hidden><span class="who">המאסטר</span><p></p></div>
+    <div id="letters" hidden></div>
+
+    <footer id="deck">
+      <div class="row top">
+        <span class="lbl">ההוראות לגולם</span>
+        <span id="count"></span>
+        <button id="clear" type="button">נקה הכול</button>
+      </div>
+      <div id="tray"></div>
+      <div class="row bottom">
+        <div id="palette"></div>
+        <button id="go" type="button"><span>החייה!</span></button>
+      </div>
+    </footer>
+  </section>
+
+  <section id="result" hidden>
+    <div class="card">
+      <div class="stars"></div>
+      <h2></h2>
+      <p class="sub"></p>
+      <p id="tomorrow" hidden>המשימה הבאה תיפתח מחר.</p>
+      <div class="btns">
+        <button id="again" type="button" class="ghost">שוב</button>
+        <button id="next" type="button">ליום הבא</button>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

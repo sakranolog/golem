@@ -1,0 +1,15 @@
+01:13.988  render           | Saved: '/Users/sakranolog/Documents/Code/golem/blender/previews/workshop_src_gamecam.png'
+01:28.206  render           | Saved: '/Users/sakranolog/Documents/Code/golem/blender/previews/workshop_src_wide.png'
+CLEAR-CIRCLE VIOLATION Floor (-5.02, -2.26, 0.0)
+CLEAR-CIRCLE VIOLATION FloorFar (-1.51, -5.29, 0.0)
+ATLAS Dais 41 objects 6406 tris
+ATLAS Room 209 objects 31356 tris
+ATLAS Furn 300 objects 53444 tris
+ATLAS Clutter 1301 objects 96456 tris
+EMIT tris 14251 TOTAL 201913
+Info: Saved as "workshop_src.blend"
+RENDERED /Users/sakranolog/Documents/Code/golem/blender/previews/workshop_src_gamecam.png
+RENDERED /Users/sakranolog/Documents/Code/golem/blender/previews/workshop_src_wide.png
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:31:21)
+
+Blender quit

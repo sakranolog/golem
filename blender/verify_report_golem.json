@@ -1,0 +1,417 @@
+{
+ "golem": {
+  "errors": [],
+  "nodes": {
+   "Golem": {
+    "parent": null,
+    "local_translation_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "materials": []
+   },
+   "Hips": {
+    "parent": "Golem",
+    "local_translation_gltf": [
+     0.0,
+     0.416,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     0.0,
+     0.416,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "Torso": {
+    "parent": "Hips",
+    "local_translation_gltf": [
+     0.0,
+     0.0832,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     0.0,
+     0.4992,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     },
+     {
+      "name": "Rune",
+      "images": []
+     }
+    ]
+   },
+   "Head": {
+    "parent": "Torso",
+    "local_translation_gltf": [
+     0.0,
+     0.6032,
+     0.0208
+    ],
+    "world_pivot_gltf": [
+     0.0,
+     1.1024,
+     0.0208
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     },
+     {
+      "name": "Rune",
+      "images": []
+     },
+     {
+      "name": "MouthDark",
+      "images": []
+     }
+    ]
+   },
+   "Eye_L": {
+    "parent": "Head",
+    "local_translation_gltf": [
+     0.0603,
+     0.1009,
+     0.1508
+    ],
+    "world_pivot_gltf": [
+     0.0603,
+     1.2033,
+     0.1716
+    ],
+    "materials": [
+     {
+      "name": "Eye",
+      "images": []
+     }
+    ]
+   },
+   "Eye_R": {
+    "parent": "Head",
+    "local_translation_gltf": [
+     -0.0603,
+     0.1009,
+     0.1508
+    ],
+    "world_pivot_gltf": [
+     -0.0603,
+     1.2033,
+     0.1716
+    ],
+    "materials": [
+     {
+      "name": "Eye",
+      "images": []
+     }
+    ]
+   },
+   "Brow_L": {
+    "parent": "Head",
+    "local_translation_gltf": [
+     0.0624,
+     0.1622,
+     0.1581
+    ],
+    "world_pivot_gltf": [
+     0.0624,
+     1.2646,
+     0.1789
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "Brow_R": {
+    "parent": "Head",
+    "local_translation_gltf": [
+     -0.0624,
+     0.1622,
+     0.1581
+    ],
+    "world_pivot_gltf": [
+     -0.0624,
+     1.2646,
+     0.1789
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "Jaw": {
+    "parent": "Head",
+    "local_translation_gltf": [
+     0.0,
+     0.026,
+     0.0416
+    ],
+    "world_pivot_gltf": [
+     0.0,
+     1.1284,
+     0.0624
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "ArmL_Upper": {
+    "parent": "Torso",
+    "local_translation_gltf": [
+     0.2527,
+     0.5408,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     0.2527,
+     1.04,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "ArmL_Lower": {
+    "parent": "ArmL_Upper",
+    "local_translation_gltf": [
+     0.052,
+     -0.2756,
+     0.0208
+    ],
+    "world_pivot_gltf": [
+     0.3047,
+     0.7644,
+     0.0208
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     },
+     {
+      "name": "Rune",
+      "images": []
+     }
+    ]
+   },
+   "HandL": {
+    "parent": "ArmL_Lower",
+    "local_translation_gltf": [
+     0.026,
+     -0.3224,
+     0.0312
+    ],
+    "world_pivot_gltf": [
+     0.3307,
+     0.442,
+     0.052
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "ArmR_Upper": {
+    "parent": "Torso",
+    "local_translation_gltf": [
+     -0.2527,
+     0.5408,
+     0.0
+    ],
+    "world_pivot_gltf": [
+     -0.2527,
+     1.04,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "ArmR_Lower": {
+    "parent": "ArmR_Upper",
+    "local_translation_gltf": [
+     -0.052,
+     -0.2756,
+     0.0208
+    ],
+    "world_pivot_gltf": [
+     -0.3047,
+     0.7644,
+     0.0208
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     },
+     {
+      "name": "Rune",
+      "images": []
+     }
+    ]
+   },
+   "HandR": {
+    "parent": "ArmR_Lower",
+    "local_translation_gltf": [
+     -0.026,
+     -0.3224,
+     0.0312
+    ],
+    "world_pivot_gltf": [
+     -0.3307,
+     0.442,
+     0.052
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "LegL": {
+    "parent": "Hips",
+    "local_translation_gltf": [
+     0.1352,
+     -0.0416,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     0.1352,
+     0.3744,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   },
+   "LegR": {
+    "parent": "Hips",
+    "local_translation_gltf": [
+     -0.1352,
+     -0.0416,
+     -0.0
+    ],
+    "world_pivot_gltf": [
+     -0.1352,
+     0.3744,
+     -0.0
+    ],
+    "materials": [
+     {
+      "name": "Clay",
+      "images": [
+       "golem_clay_col",
+       "golem_clay_orm",
+       "golem_clay_nrm"
+      ]
+     }
+    ]
+   }
+  },
+  "bbox_gltf": {
+   "size": [
+    0.9,
+    1.383,
+    0.515
+   ],
+   "min_y": -0.0,
+   "max_y": 1.383
+  },
+  "materials": [
+   "Clay",
+   "Eye",
+   "MouthDark",
+   "Rune"
+  ],
+  "tris": 112246
+ }
+}

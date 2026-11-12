@@ -1,0 +1,19 @@
+== 23:20:04 build_props.py
+EXPORTED /Users/sakranolog/Documents/Code/golem/public/models/props.glb 7266348
+== 23:21:10 build_workshop.py
+CLEAR-CIRCLE VIOLATION Floor (-5.02, -2.26, 0.0)
+CLEAR-CIRCLE VIOLATION FloorFar (-1.51, -5.29, 0.0)
+== 23:22:38 bake_workshop.py
+WORKSHOP_TRIS 201913 {'Baked_Dais': 6406, 'Baked_Room': 31356, 'Baked_Furn': 53444, 'Baked_Clutter': 96456, 'Emit_CandleFlames': 2592, 'Emit_DaisRunes': 9654, 'Emit_KilnFire': 732, 'Emit_LanternGlass': 96, 'Emit_MagicJar': 288, 'Emit_MagicJar.001': 288, 'Emit_MagicJar.002': 288, 'Emit_Potion': 288, 'Emit_Window': 25}
+EXPORTED /Users/sakranolog/Documents/Code/golem/public/models/workshop.glb 14771716
+== 23:31:13 render_env.py
+ENV DONE
+== 23:32:48 render_beauty.py
+== 23:35:06 verify_glb.py
+VERIFY golem errors: [] tris: 112246
+== 23:35:11 verify_glb.py
+VERIFY props errors: [] tris: None
+== 23:35:16 verify_glb.py
+VERIFY workshop errors: [] tris: 201913
+manifest written, total bytes 33775005
+== 23:35:19 ALL DONE

@@ -1,0 +1,514 @@
+{
+ "workshop": {
+  "errors": [],
+  "meshes": {
+   "Baked_Clutter": {
+    "tris": 96456,
+    "materials": [
+     {
+      "name": "Baked_Clutter",
+      "images": [
+       "workshop_clutter_lightmap"
+      ]
+     }
+    ],
+    "unlit_import": true
+   },
+   "Baked_Dais": {
+    "tris": 6406,
+    "materials": [
+     {
+      "name": "Baked_Dais",
+      "images": [
+       "workshop_dais_lightmap"
+      ]
+     }
+    ],
+    "unlit_import": true
+   },
+   "Baked_Furn": {
+    "tris": 53444,
+    "materials": [
+     {
+      "name": "Baked_Furn",
+      "images": [
+       "workshop_furn_lightmap"
+      ]
+     }
+    ],
+    "unlit_import": true
+   },
+   "Baked_Room": {
+    "tris": 31356,
+    "materials": [
+     {
+      "name": "Baked_Room",
+      "images": [
+       "workshop_room_lightmap"
+      ]
+     }
+    ],
+    "unlit_import": true
+   },
+   "Emit_CandleFlames": {
+    "tris": 2592,
+    "materials": [
+     {
+      "name": "Emit_Flame",
+      "images": []
+     }
+    ]
+   },
+   "Emit_DaisRunes": {
+    "tris": 9654,
+    "materials": [
+     {
+      "name": "Emit_Rune",
+      "images": []
+     }
+    ]
+   },
+   "Emit_KilnFire": {
+    "tris": 732,
+    "materials": [
+     {
+      "name": "Emit_Fire",
+      "images": []
+     }
+    ]
+   },
+   "Emit_LanternGlass": {
+    "tris": 96,
+    "materials": [
+     {
+      "name": "Emit_Lantern",
+      "images": []
+     }
+    ]
+   },
+   "Emit_MagicJar": {
+    "tris": 288,
+    "materials": [
+     {
+      "name": "Emit_Magic",
+      "images": []
+     }
+    ]
+   },
+   "Emit_MagicJar.001": {
+    "tris": 288,
+    "materials": [
+     {
+      "name": "Emit_Magic",
+      "images": []
+     }
+    ]
+   },
+   "Emit_MagicJar.002": {
+    "tris": 288,
+    "materials": [
+     {
+      "name": "Emit_Magic",
+      "images": []
+     }
+    ]
+   },
+   "Emit_Potion": {
+    "tris": 288,
+    "materials": [
+     {
+      "name": "Emit_Magic",
+      "images": []
+     }
+    ]
+   },
+   "Emit_Window": {
+    "tris": 25,
+    "materials": [
+     {
+      "name": "Emit_WindowSky",
+      "images": [
+       "workshop_window_sky"
+      ]
+     }
+    ]
+   }
+  },
+  "empties": {
+   "Light_Candle_1.001": {
+    "pos_gltf": [
+     -1.6,
+     1.23,
+     -6.25
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.25
+     ],
+     "blender_power": 18
+    }
+   },
+   "Light_Candle_2.001": {
+    "pos_gltf": [
+     -1.45,
+     1.15,
+     -6.18
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.25
+     ],
+     "blender_power": 18
+    }
+   },
+   "Light_Candle_3.001": {
+    "pos_gltf": [
+     1.6,
+     1.19,
+     -6.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.25
+     ],
+     "blender_power": 18
+    }
+   },
+   "Light_Candle_4.001": {
+    "pos_gltf": [
+     -5.25,
+     0.62,
+     -3.55
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Candle_5.001": {
+    "pos_gltf": [
+     5.05,
+     0.62,
+     -3.45
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Candle_6.001": {
+    "pos_gltf": [
+     -3.0,
+     0.62,
+     -5.65
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Candle_7.001": {
+    "pos_gltf": [
+     3.05,
+     0.62,
+     -5.65
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Candle_8.001": {
+    "pos_gltf": [
+     -6.5,
+     0.62,
+     1.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Candle_9.001": {
+    "pos_gltf": [
+     6.5,
+     0.62,
+     1.3
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.58,
+      0.22
+     ],
+     "blender_power": 45
+    }
+   },
+   "Light_Fire.001": {
+    "pos_gltf": [
+     4.981,
+     0.75,
+     -5.577
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.42,
+      0.12
+     ],
+     "blender_power": 900
+    }
+   },
+   "Light_Lantern_1.001": {
+    "pos_gltf": [
+     -7.35,
+     2.85,
+     -0.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_2.001": {
+    "pos_gltf": [
+     7.35,
+     2.85,
+     -0.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_3.001": {
+    "pos_gltf": [
+     -7.35,
+     2.85,
+     -5.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_4.001": {
+    "pos_gltf": [
+     7.35,
+     2.85,
+     -5.2
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_5.001": {
+    "pos_gltf": [
+     -2.35,
+     2.55,
+     -6.65
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_6.001": {
+    "pos_gltf": [
+     2.35,
+     2.55,
+     -6.65
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 60
+    }
+   },
+   "Light_Lantern_7.001": {
+    "pos_gltf": [
+     -5.9,
+     4.45,
+     -3.6
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 90
+    }
+   },
+   "Light_Lantern_8.001": {
+    "pos_gltf": [
+     6.1,
+     4.45,
+     -2.4
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      1.0,
+      0.6,
+      0.26
+     ],
+     "blender_power": 90
+    }
+   },
+   "Light_Magic_1.001": {
+    "pos_gltf": [
+     0.15,
+     1.2,
+     -6.65
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      0.1,
+      1.0,
+      0.8
+     ],
+     "blender_power": 25
+    }
+   },
+   "Light_Magic_2.001": {
+    "pos_gltf": [
+     -1.25,
+     1.625,
+     -7.03
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      0.1,
+      1.0,
+      0.8
+     ],
+     "blender_power": 14
+    }
+   },
+   "Light_Magic_3.001": {
+    "pos_gltf": [
+     -7.53,
+     2.275,
+     -2.6
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      0.1,
+      1.0,
+      0.8
+     ],
+     "blender_power": 14
+    }
+   },
+   "Light_Magic_4.001": {
+    "pos_gltf": [
+     7.53,
+     1.425,
+     -1.6
+    ],
+    "props": {
+     "light_type": "POINT",
+     "color": [
+      0.1,
+      1.0,
+      0.8
+     ],
+     "blender_power": 14
+    }
+   },
+   "Light_Moon.001": {
+    "pos_gltf": [
+     -4.62,
+     4.0,
+     -7.3
+    ],
+    "props": {
+     "direction_gltf": [
+      0.3374080955982208,
+      -0.5505079627037048,
+      0.7636078000068665
+     ],
+     "light_type": "SUN",
+     "color": [
+      0.42,
+      0.6,
+      1.0
+     ],
+     "blender_power": 9.0
+    }
+   }
+  },
+  "tris": 201913
+ }
+}

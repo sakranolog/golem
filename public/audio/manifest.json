@@ -1,0 +1,326 @@
+{
+  "music_main": {
+    "file": "music_main.mp3",
+    "kind": "music",
+    "loop": true,
+    "volume": 0.5
+  },
+  "music_think": {
+    "file": "music_think.mp3",
+    "kind": "music",
+    "loop": true,
+    "volume": 0.4
+  },
+  "sting_success": {
+    "file": "sting_success.mp3",
+    "kind": "music",
+    "loop": false,
+    "volume": 0.7
+  },
+  "sting_fail": {
+    "file": "sting_fail.mp3",
+    "kind": "music",
+    "loop": false,
+    "volume": 0.7
+  },
+  "sting_final": {
+    "file": "sting_final.mp3",
+    "kind": "music",
+    "loop": false,
+    "volume": 0.75
+  },
+  "amb_workshop": {
+    "file": "amb_workshop.mp3",
+    "kind": "amb",
+    "loop": true,
+    "volume": 0.5
+  },
+  "step_1": {
+    "file": "step_1.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "step_2": {
+    "file": "step_2.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "step_3": {
+    "file": "step_3.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "turn": {
+    "file": "turn.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "bonk": {
+    "file": "bonk.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "bonk_books": {
+    "file": "bonk_books.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "pickup": {
+    "file": "pickup.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "putdown": {
+    "file": "putdown.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "jug_smash": {
+    "file": "jug_smash.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "awaken": {
+    "file": "awaken.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "sleep": {
+    "file": "sleep.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "stone_place": {
+    "file": "stone_place.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "stone_remove": {
+    "file": "stone_remove.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "ui_tap": {
+    "file": "ui_tap.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.7
+  },
+  "fall": {
+    "file": "fall.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "cat_meow": {
+    "file": "cat_meow.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "cat_purr": {
+    "file": "cat_purr.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "plant_bloom": {
+    "file": "plant_bloom.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "letter_collect": {
+    "file": "letter_collect.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "candle_light": {
+    "file": "candle_light.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "sweep": {
+    "file": "sweep.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "star": {
+    "file": "star.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_grunt_1": {
+    "file": "golem_grunt_1.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_grunt_2": {
+    "file": "golem_grunt_2.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_grunt_3": {
+    "file": "golem_grunt_3.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_huh": {
+    "file": "golem_huh.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_happy": {
+    "file": "golem_happy.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "golem_oops": {
+    "file": "golem_oops.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.8
+  },
+  "whoosh_ui": {
+    "file": "whoosh_ui.mp3",
+    "kind": "sfx",
+    "loop": false,
+    "volume": 0.6
+  },
+  "vo_intro": {
+    "file": "vo_intro.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_day1": {
+    "file": "vo_day1.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_day2": {
+    "file": "vo_day2.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_day3": {
+    "file": "vo_day3.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_day4": {
+    "file": "vo_day4.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_day5": {
+    "file": "vo_day5.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_wall": {
+    "file": "vo_fail_wall.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_fall": {
+    "file": "vo_fail_fall.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_cat": {
+    "file": "vo_fail_cat.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_smash": {
+    "file": "vo_fail_smash.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_generic": {
+    "file": "vo_fail_generic.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_fail_short": {
+    "file": "vo_fail_short.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_success_1": {
+    "file": "vo_success_1.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_success_2": {
+    "file": "vo_success_2.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_success_3": {
+    "file": "vo_success_3.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_final": {
+    "file": "vo_final.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_tomorrow": {
+    "file": "vo_tomorrow.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_hint_repeat": {
+    "file": "vo_hint_repeat.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  },
+  "vo_hint_if": {
+    "file": "vo_hint_if.mp3",
+    "kind": "vo",
+    "loop": false,
+    "volume": 1
+  }
+}

@@ -1,0 +1,35 @@
+23:37:57 | INFO: Data are loaded, start creating Blender stuff
+23:37:57 | INFO: Blender create Mesh node Block_Books_mesh
+23:37:57 | INFO: Blender create Mesh node Block_Crate_mesh
+23:37:58 | INFO: Blender create Mesh node Block_Stone_mesh
+23:37:58 | INFO: Blender create Mesh node Broom_mesh
+23:37:58 | INFO: Blender create Mesh node Candle_mesh
+23:37:58 | INFO: Blender create Mesh node Flame
+23:37:58 | INFO: Blender create Mesh node Cat_mesh
+23:37:58 | INFO: Blender create Mesh node Cat_Awake_mesh
+23:37:58 | INFO: Blender create Mesh node DustPile_mesh
+23:37:58 | INFO: Blender create Mesh node Jug_mesh
+23:37:58 | INFO: Blender create Mesh node JugShard_1_mesh
+23:37:58 | INFO: Blender create Mesh node JugShard_2_mesh
+23:37:58 | INFO: Blender create Mesh node JugShard_3_mesh
+23:37:58 | INFO: Blender create Mesh node JugShard_4_mesh
+23:37:58 | INFO: Blender create Mesh node JugShard_5_mesh
+23:37:58 | INFO: Blender create Mesh node Letter_Alef
+23:37:58 | INFO: Blender create Mesh node Letter_Mem
+23:37:58 | INFO: Blender create Mesh node Letter_Tav
+23:37:58 | INFO: Blender create Mesh node Pedestal_mesh
+23:37:58 | INFO: Blender create Mesh node Plant_Bloom_mesh
+23:37:58 | INFO: Blender create Mesh node Plant_Wilted_mesh
+23:37:58 | INFO: Blender create Mesh node Scroll_mesh
+23:37:58 | INFO: Blender create Mesh node Star
+23:37:58 | INFO: Blender create Mesh node Tile_A_mesh
+23:37:58 | INFO: Blender create Mesh node Tile_B_mesh
+23:37:58 | INFO: Blender create Mesh node Tile_C_mesh
+23:37:58 | INFO: Blender create Mesh node TileGoal_mesh
+23:37:58 | INFO: glTF import finished in 0.12s
+00:04.519  render           | Saved: '/Users/sakranolog/Documents/Code/golem/blender/previews/verify_props.png'
+RENDERED /Users/sakranolog/Documents/Code/golem/blender/previews/verify_props.png
+VERIFY props errors: [] tris: None
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:31:21)
+
+Blender quit
